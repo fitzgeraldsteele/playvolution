@@ -3,6 +3,26 @@
  * BASIC STYLESHEET - DREW
  * ==============================================================
  */
+ 
+ /* TF2 Build Fontface */
+@font-face {
+    font-family: 'tf2-build';
+    src: url('tf2-build.ttf-webfont.eot');
+    src: url('tf2-build.ttf-webfont.eot?#iefix') format('embedded-opentype'),
+         url('tf2-build.ttf-webfont.woff2') format('woff2'),
+         url('tf2-build.ttf-webfont.woff') format('woff'),
+         url('tf2-build.ttf-webfont.ttf') format('truetype'),
+         url('tf2-build.ttf-webfont.svg#webfontregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.tf2build {
+	font-family: 'tf2-build';
+	
+}
+
 
 /**
  * ========================================
